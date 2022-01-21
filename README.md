@@ -1,5 +1,12 @@
 ## Luckydip - a small simple random number generator
 
+You have following options
+
+- only one random number
+- random number between a given amount and range
+- lottery 6 of 49
+- eurojackpot
+
 # Next + Netlify Starter
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status)](https://app.netlify.com/sites/next-dev-starter/deploys)
