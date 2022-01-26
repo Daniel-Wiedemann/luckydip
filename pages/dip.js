@@ -1,7 +1,10 @@
+import DipNumbers from "@components/DipNumbers";
+
 function Dip() {
   return (
     <div>
-      <h3>bla</h3>
+      
+      <DipNumbers></DipNumbers>
       <div></div>
     </div>
   );
