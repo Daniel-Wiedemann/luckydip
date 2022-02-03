@@ -2,13 +2,14 @@
 
 ## Luckydip - a small simple random number generator
 
+You will find the website here: https://luckydip.netlify.app/
+
 You have following options
 
-- only one random number
-- random number between a given amount and range
-- lottery 6 of 49
-- eurojackpot
-
+-   only one random number
+-   random number between a given amount and range
+-   lottery 6 of 49
+-   eurojackpot
 
 ## Getting Started
 
@@ -21,4 +22,3 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
