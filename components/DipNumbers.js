@@ -10,17 +10,17 @@ import {
     StatisticValue,
 } from 'semantic-ui-react';
 
-export default function DipNumbers() {
+export default function DipNumbers({ min = 1, max = 49, amount = 6 }) {
     const [numberList, setNumberList] = useState([]);
-    useEffect(() => setNumberList(randomIntInRange(1, 49, 6)), []);
+    useEffect(() => setNumberList(randomIntInRange(min, max, amount)), []);
     function generateDip() {
-        setNumberList(randomIntInRange(1, 49, 6));
+        setNumberList(randomIntInRange(min, max, amount));
     }
     return (
         <>
             <Grid
                 textAlign="center"
-                style={{ height: '100vh', backgroundColor: 'grey' }}
+                style={{ backgroundColor: 'grey' }}
                 verticalAlign="middle"
             >
                 <GridColumn color="grey">

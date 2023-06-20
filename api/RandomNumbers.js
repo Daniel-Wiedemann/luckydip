@@ -12,7 +12,7 @@ function randomIntInRange(min, max, n = 1) {
         arr[i] = min++;
     }
     shuffle(arr);
-    return arr.slice(0, 6);
+    return arr.slice(0, n);
     //   return Array.from(
     //     { length: n },
     //     () => Math.floor(Math.random() * (max - min + 1)) + min

@@ -15,6 +15,8 @@ export default function Home() {
         <Header title="Welcome to Lucky Dip App" />
         <p className="description">Generate random numbers.</p>
         <Link href="/dip">6 of 49</Link>
+        <br />
+        <Link href="/dipeuro">5 of 50</Link>
       </main>
 
       <Footer />
